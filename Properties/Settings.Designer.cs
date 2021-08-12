@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace cs_form_framework_mysql_03.Properties {
+namespace cs_form_framework_mysql_06.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
