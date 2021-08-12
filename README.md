@@ -17,3 +17,20 @@ private void button3_Click(object sender, EventArgs e)
 ```
 
 ![image](https://user-images.githubusercontent.com/1501327/129150025-666d7475-2f2e-4db8-8647-23a16a717aaf.png)
+## Form1 へアクセス
+```cs
+private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+{
+    int row = e.RowIndex;
+    if ( row < 0 )
+    {
+        return;
+    }
+    int column = e.ColumnIndex;
+    string text = dataGridView1.Rows[row].Cells["社員コード"].Value.ToString();
+
+    form1.scode.Text = text;
+    this.DialogResult = System.Windows.Forms.DialogResult.OK;
+    this.Close();
+}
+```
