@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cs_form_framework_mysql_04
+namespace cs_form_framework_mysql_06
 {
     public partial class Form2 : Form
     {
