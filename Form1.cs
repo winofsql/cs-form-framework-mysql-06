@@ -311,11 +311,6 @@ namespace cs_form_framework_mysql_06
             }
         }
 
-        private void syozoku_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2( this );
