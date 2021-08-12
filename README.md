@@ -9,8 +9,8 @@ private void button3_Click(object sender, EventArgs e)
     DialogResult result = form2.ShowDialog();
     if (result == System.Windows.Forms.DialogResult.OK)
     {
-this.scode.Focus();
-button1_Click(null, null);
+        this.scode.Focus();
+        button1_Click(null, null);
     }
     form2.Dispose();
 }
