@@ -19,6 +19,9 @@ private void button3_Click(object sender, EventArgs e)
 ![image](https://user-images.githubusercontent.com/1501327/129150025-666d7475-2f2e-4db8-8647-23a16a717aaf.png)
 ## Form1 へアクセス
 ```cs
+public System.Windows.Forms.TextBox scode;
+```
+```cs
 private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
 {
     int row = e.RowIndex;
