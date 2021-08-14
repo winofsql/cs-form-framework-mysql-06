@@ -147,7 +147,6 @@ namespace cs_form_framework_mysql_06
             this.syozoku.Name = "syozoku";
             this.syozoku.Size = new System.Drawing.Size(185, 27);
             this.syozoku.TabIndex = 10;
-            this.syozoku.SelectedIndexChanged += new System.EventHandler(this.syozoku_SelectedIndexChanged);
             // 
             // button3
             // 
