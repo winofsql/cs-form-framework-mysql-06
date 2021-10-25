@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.Odbc;
 using System.Windows.Forms;
 
-namespace cs_form_framework_mysql_06
+namespace cs_form_mysql_06
 {
     public partial class Form2 : Form
     {
