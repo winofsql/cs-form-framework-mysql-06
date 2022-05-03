@@ -43,7 +43,7 @@ namespace cs_form_mysql_06
             // SELECT を実行した結果を取得
             myReader = myCommand.ExecuteReader();
 
-            // myReader からデータが読みだされる間ずっとループ
+            // myReader からデータが読みだされたら画面にセット
             if (myReader.Read())
             {
                 string text = getDbText(myReader, "氏名");
